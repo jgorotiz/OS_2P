@@ -1,0 +1,12 @@
+Descripcion General:
+Para este punto es importante mencionar que en el codigo del comando twc se usó hilos con el fin de realizar de manera mas eficiente creando para esto dos funciones que ejcutaran los hilos, una sera para contar el total de palabras de un archivo y otra funcion sera para poder contar las lineas que tiene un archivo, debido a que este comando esta hecho para que el usaurio envie varios archivos a la vez se decidio usar lo hilos para que cada hilo este encargado de un archivo y lo lea y procese (cuente lineas o palabras) segun sea el caso y terminar en un menor tiempo ya que se leeran de manera simultanea.
+
+Para el archivo del shell, este se uso la creacion de procesos nada mas, siempre validando que la creacion del child con el comando fork sea valido, ademas de esto se realizo una separacion de lo que ingresó el usaurio en una lisa de strings y por ultimo el llevar todo a un standar para poder ejecutar el comando deseado.
+
+Especificaciones:
+Para el codigo del shell se mantne una validaciones como son el cuando el usaurio solo presiona enter, al usuario presioanr ENTER la longitud de lo ingresado sera 0 por lo que se realizo una validacion de que si el tamaño es 0 se esperara a que ingrese un comando.
+En caso de que se ingrese espacios dobles entre argumentos el codigo al separarlos lo ignorara por lo que no ausara problemas al quererlos ejecuta.
+
+Bugs o errores:
+Hasta ahora he probado lo que he podido y no no encuentro errores :(
+
